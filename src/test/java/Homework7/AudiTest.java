@@ -61,6 +61,7 @@ public class AudiTest extends AudiBase{
     page.checkBox.click();
     page.continueButton.click();
     Assert.assertTrue(page.OptionalInfo.getText().contains("0"));
+    System.out.println("ok Vova");
 }
 
 }
